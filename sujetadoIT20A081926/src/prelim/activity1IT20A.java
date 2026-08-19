@@ -10,7 +10,9 @@ package prelim;
  */
 public class activity1IT20A {
     public static void main(String[]args){
-        System.out.println("Hello World!");
+        int a = 10;
+        int b = 5;
+        System.out.println("SUM: " + (a + b));
         
     }
 }
