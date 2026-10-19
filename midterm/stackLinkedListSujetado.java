@@ -25,7 +25,7 @@ public class stackLinkedListSujetado {
     }
     public int pop(){
         if(top == null){
-            System.out.println("Stack is empty");
+            System.out.println("Stack is empty ");
             return -1;
         }
         int removed = top.data;
@@ -34,7 +34,7 @@ public class stackLinkedListSujetado {
     }
     public int peek(){
         if(top == null){
-            System.out.println("Stack is empty.");
+            System.out.println("Stack is empty. ");
             return -1;
         }
         
@@ -42,7 +42,7 @@ public class stackLinkedListSujetado {
     }
     public void display(){
         if(top == null){
-            System.out.println("Stack is empty");
+            System.out.println("Stack is empty ");
             return;
         }
         
