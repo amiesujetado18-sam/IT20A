@@ -22,7 +22,7 @@ public class linearSearch {
         if (result >= 0){
             System.out.println("Found at index: " + result + " = " + arr[result]);
         }else{
-            System.out.println("Element not Found");
+            System.out.println("Element not Found!");
         }
         
     }
