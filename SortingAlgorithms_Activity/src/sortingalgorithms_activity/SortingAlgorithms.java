@@ -48,5 +48,32 @@ public class SortingAlgorithms {
     }
     System.out.println();
         }
-    }
+    
+    
+    public static void main(String[] args) {
+
+    int[] originalArray = {45, 12, 78, 3, 29, 56, 8, 91, 17, 34};
+
+    System.out.println("SORTING ALGORITHMS");
+    System.out.println("------------------------------");
+
+    System.out.print("Original Array: ");
+    displayArray(originalArray);
+
+    int[] bubbleArray = {45, 12, 78, 3, 29, 56, 8, 91, 17, 34};
+    bubbleSort(bubbleArray);
+    System.out.print("Bubble Sort: ");
+    displayArray(bubbleArray);
+
+    int[] selectionArray = {45, 12, 78, 3, 29, 56, 8, 91, 17, 34};
+    selectionSort(selectionArray);
+    System.out.print("Selection Sort: ");
+    displayArray(selectionArray);
+
+    int[] insertionArray = {45, 12, 78, 3, 29, 56, 8, 91, 17, 34};
+    insertionSort(insertionArray);
+    System.out.print("Insertion Sort: ");
+    displayArray(insertionArray);
+}
+}
 
